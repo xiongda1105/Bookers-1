@@ -4,6 +4,7 @@
   <%= f.text_field :title %>
   <p>Body</p>
   <%= f.text_area :body %>
+  <br>
   <%= f.submit "Update Book" %>
 <% end %>
 <%= link_to "Show", "/books/#{@book.id}" %>
